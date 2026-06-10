@@ -79,7 +79,7 @@ git pull origin main
 
 ```bash
 1. Escキーを押下
-2. 「:q!」をタイプ(Git Bash左下に出る)してEnterキーを押下
+2. 「:wq!」をタイプ(Git Bash左下に出る)してEnterキーを押下
 3. 「git status」で自分で追加・変更しているファイルを確認する
 4. 確認して異常が出ていなければ再度ステップ1から実施し直す
 ```
