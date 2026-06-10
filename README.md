@@ -73,6 +73,18 @@ git status
 git pull origin main
 ```
 
+>[!WARNING]
+>Merge branch 'main' of github.com:Training-Organization-724/リポジトリ名<br>
+>上記のメッセージが出力されている場合はGit Bash上で以下の対応を行ってください。
+
+```bash
+1. Escキーを押下
+2. 「:q!」をタイプ(Git Bash左下に出る)してEnterキーを押下
+3. 「git status」で自分で追加・変更しているファイルを確認する
+4. 確認して異常が出ていなければ再度ステップ1から実施し直す
+```
+
+
 ### ステップ3：変更の登録（ステージング）
 コミット（履歴の保存）をするために、対象のファイルを準備エリア（ステージ）に追加します。<br>
 >[!WARNING]
@@ -154,5 +166,3 @@ git restore ファイル名
 ## 💡 ワンポイントアドバイス
 - 迷ったらまず **`git status`** を叩いて現状を確認しましょう。
 - **`git add .`** や **`git commit`** をする前には、必ず **`git status`** で意図しないファイルが含まれていないか確認する癖をつけると安心です。
-
-
